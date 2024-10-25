@@ -45,10 +45,10 @@ global.SESSION_ID =
 
 module.exports = {
   menu: process.env.MENU || "menu1",
-  HANDLERS: process.env.PREFIX || ".,",
+  HANDLERS: process.env.PREFIX || "",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "©zᴀxᴍᴅ",
+  caption: process.env.CAPTION || "ArslanMD-Botz",
   author: process.env.PACK_AUTHER || "Arslan-MD",
   packname: process.env.PACK_NAME || "Arslan-bot",
   botname: process.env.BOT_NAME || "ArslanMD",
@@ -63,7 +63,7 @@ module.exports = {
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "public",
   LANG: (process.env.THEME || "zᴀx").toUpperCase(),
 };
 global.rank = "updated";
